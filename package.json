@@ -1,0 +1,14 @@
+{
+  "name": "starter-blog",
+  "version": "1.0.0",
+  "description": "starter blog",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  },
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  }
+}
