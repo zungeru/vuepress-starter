@@ -1,8 +1,9 @@
-## My First Article
-VuePress is an amazing static site generator! 
 
-{{ $site }}  
-
-<div v-for='n in 5'>
+<div v-for="x in 5">
   <Dummy/>
 </div>
+
+
+This is the post dummy component that the world is working on. I am in fashion tech. 
+
+{{ $site }}  

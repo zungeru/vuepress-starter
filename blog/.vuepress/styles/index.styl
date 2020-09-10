@@ -1,12 +1,16 @@
 @require './code'
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap')
+
 *
   margin 0
   padding 0
   box-sizing 0
 
 body
-  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  font-family Roboto, Helvetica, sans-serif
+  // font-family Arial, Helvetica, -apple-system, sans-serif, 'Noto Sans JP'
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
@@ -27,7 +31,7 @@ h1, h2, h3
   width: 100% /* Full width */
   display: block
   /*transition: top 0.9s;  Transition effect when sliding down (and up) */
-  box-shadow 0 5px 5px -5px rgba(0,0,0,0.2)
+  box-shadow 0 8px 5px -5px rgba(0,0,0,0.2)
   z-index 5
 
 .header-container
@@ -66,7 +70,7 @@ h1, h2, h3
 .main
   flex 1
   // background rgb(230, 203, 173)
-  padding 0px 20px 20px 20px
+  padding 20px
 
 ol,ul
   margin 20px
