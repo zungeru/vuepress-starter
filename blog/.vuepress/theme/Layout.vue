@@ -2,7 +2,9 @@
   <div>
     <header id='header'>
       <div class='header-container'>
+        <router-link to='/'>
           <img class='logo' src='../public/logo3.png'>
+          </router-link>
       </div>
     </header>
 

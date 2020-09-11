@@ -9,8 +9,8 @@
   box-sizing 0
 
 body
-  font-family Roboto, Helvetica, sans-serif
-  // font-family Arial, Helvetica, -apple-system, sans-serif, 'Noto Sans JP'
+  font-family Roboto, Arial, Helvetica, -apple-system, sans-serif
+  // font-family Arial, Helvetica, -apple-system, sans-serif, 
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
@@ -20,10 +20,21 @@ body
   letter-spacing 0.5px
 
 h1, h2, h3
-  line-height 2em
+  font-family 'Noto Sans JP', Arial, Helvetica, -apple-system, sans-serif
+  margin-bottom 20px
+
+// Styles For Blog Posts
 
 .header-anchor
   display none
+
+.post-subheader
+  border-bottom 1px
+  color red  
+
+
+
+// End Styles For Blog Posts  
 
 #header
   background-color $headerColor
@@ -46,15 +57,15 @@ h1, h2, h3
   margin 5px 15px
 
 .wrapper
-  margin-top 80px
+  margin-top 75px
   margin-left auto
   margin-right auto
-  max-width 1250px
-  /* background-color lightblue */
+  max-width 1080px
+  // background-color lightblue
   display flex
   flex-direction column
   width 100%
-  padding 5px
+  padding 10px
 
 .sidebar
   /* width 175px */
@@ -78,10 +89,10 @@ ol,ul
 
 @media only screen and (min-width: 801px)
   .wrapper
-    margin-top 80px
+    margin-top 85px
     margin-left auto
     margin-right auto
-    max-width 1250px
+    max-width 1080px
     // background-color lightblue
     display flex
     flex-direction row
@@ -96,7 +107,7 @@ ol,ul
     width 200px
     height 250px
     // background lightgreen
-    padding 45px 15px 15px 15px
+    padding 25px 15px 15px 15px
     position sticky
     top 75px
 
@@ -104,4 +115,3 @@ ol,ul
     width 150px
     height 150px
     margin auto
-
