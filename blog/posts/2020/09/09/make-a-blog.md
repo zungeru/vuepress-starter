@@ -22,7 +22,15 @@ What Does CI/CD actually mean and why has it become so popular in the last few y
 
 <br/>
 
-<h3 class='post-subheader'>Let Me Work On This Blog Business</h3>
+<Subheader data='Subheader Number 2'/>
+
+<div class='note-bene'>
+  <p> This is where I want to style notes that are important. I really should just have a component
+  for this but then I would have to put all the text in the component. I'm not sure if it is worth itt.</p>
+</div>
+
+
+<Note data="This is very important. Also, how do I escape character's All the time. This is the best part of my job you know. What else don't I know"/>
 
   1. Me
   1. You

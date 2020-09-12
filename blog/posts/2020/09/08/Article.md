@@ -1,6 +1,6 @@
 
 <div v-for="x in 5">
-  <Dummy/>
+  <Summary/>
 </div>
 
 
