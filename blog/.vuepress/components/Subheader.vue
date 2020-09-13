@@ -1,6 +1,6 @@
 <template>
   <div class='subheader-container'>
-    <h3>{{data}}</h3>
+    <h2>{{data}}</h2>
   </div>
 </template>
 
@@ -17,6 +17,6 @@ export default {
     border-bottom 1px solid #dadada
     margin-bottom 20px
 
-  .subheader-container h3
+  .subheader-container h2
     margin-bottom 5px
 </style>

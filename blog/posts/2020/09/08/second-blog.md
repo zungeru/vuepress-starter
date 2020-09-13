@@ -1,17 +1,21 @@
 ---
-title: Intro to VuePress blog theme and plugin
-date: 2020-01-25
+title: Intro To AWS S3
+date: 08 SEPT 2020
+created: 1599952777
+updated: 1599952777
+publish: 1
 tags:
-  - Vue
-  - VuePress
-  - JavaScript
-summary: Build a blog with VuePress. With static site generator, it's pretty easy to build your own blog. If you're familiar with Vue, VuePress could be a good choice. Even though you've never used vue before, you can still use the out-of-box theme.
+  - AWS
+  - S3
+  - CI/CD
+  - CloudFormation
+summary: Amazon S3 is an awesome tool. We are going to use it to host this site when we are all done. It was a great week. the begining was kinda challenging, but I figured it all out by Allah's grace. That's what it is all about, perservering. 
 ---
 
 
-# Intro to VuePress blog theme and plugin
+# {{ $page.frontmatter.title }}
 
-<Meta date="24 JAN 2020" :tags="$page.frontmatter.tags"/>
+<Meta :date='$page.frontmatter.date' :tags='$page.frontmatter.tags'/>
 
 
 AWS Codepipeline is an excellent option for your CI/CD Option. In this article, I will walk you through setting using Github and AWS to set up your CI/CD pipeline.  
@@ -22,7 +26,7 @@ What Does CI/CD actually mean and why has it become so popular in the last few y
 
 <br/>
 
-<Subheader data='Subheader Number 2'/>
+<Subheader data='Using Amazon S3'/>
 
 <div class='note-bene'>
   <p> This is where I want to style notes that are important. I really should just have a component

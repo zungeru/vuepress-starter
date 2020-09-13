@@ -1,17 +1,21 @@
 ---
-title: Intro to VuePress blog theme and plugin
-date: 2020-01-25
+title: Setting up a seventh blog
+date: 10 SEPT 2020
+created: 1599955325
+updated: 1599955325
+publish: 1
 tags:
-  - Vue
-  - VuePress
-  - JavaScript
-summary: Build a blog with VuePress. With static site generator, it's pretty easy to build your own blog. If you're familiar with Vue, VuePress could be a good choice. Even though you've never used vue before, you can still use the out-of-box theme.
+  - AWS
+  - CI/CD
+  - CodePipeline
+  - CloudFormation
+summary: Did they get you trade, your heros for ghost. Hot ashes trees, hot air for a cool breeze, cold confort for change. Did you exchange, a walk on part in a war, for a lead role in cage. How I wish, how I wish you were here. We're just two lost soulds swimming in a fish bowl year after year.
 ---
 
 
-# Intro to VuePress blog theme and plugin
+# {{ $page.frontmatter.title }}
 
-<Meta date="24 JAN 2020" :tags="$page.frontmatter.tags"/>
+<Meta :date='$page.frontmatter.date' :tags='$page.frontmatter.tags'/>
 
 
 AWS Codepipeline is an excellent option for your CI/CD Option. In this article, I will walk you through setting using Github and AWS to set up your CI/CD pipeline.  
@@ -22,7 +26,7 @@ What Does CI/CD actually mean and why has it become so popular in the last few y
 
 <br/>
 
-<Subheader data='Subheader Number 2'/>
+<Subheader data='Code Pipeline Console'/>
 
 <div class='note-bene'>
   <p> This is where I want to style notes that are important. I really should just have a component

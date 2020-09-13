@@ -1,9 +1,11 @@
 <template>
   <div class='container'>
-    <h2 class='title'>{{$site.pages[2].frontmatter.title }}</h2>
-    <p class='summary'>{{$site.pages[2].frontmatter.summary }}</p>
+    <router-link :to='data.path'>
+      <h2 class='title'>{{data.frontmatter.title }}</h2>
+      <p class='summary'>{{data.frontmatter.summary }}</p>
+    </router-link>
     
-    <Meta date='24 Jan 2014' :tags='$site.pages[2].frontmatter.tags'/>
+    <Meta date='24 Jan 2014' :tags='data.frontmatter.tags'/>
     <hr>
   </div>
 </template>
@@ -13,6 +15,9 @@
   export default {
     components: {
       Meta
+    },
+    props: {
+      data: [Object]
     }
   }
 </script>

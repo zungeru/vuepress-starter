@@ -1,17 +1,21 @@
 ---
-title: Intro to VuePress blog theme and plugin
-date: 2020-01-25
+title: Intro To AWS Cognito
+date: 08 SEPT 2020
+created: 1599952067
+updated: 1599952067
+publish: 1
 tags:
-  - Vue
-  - VuePress
-  - JavaScript
-summary: Build a blog with VuePress. With static site generator, it's pretty easy to build your own blog. If you're familiar with Vue, VuePress could be a good choice. Even though you've never used vue before, you can still use the out-of-box theme.
+  - AWS
+  - Cognito
+  - CI/CD
+  - CloudFormation
+summary: Amazon Cognito is really ok, kinda of confusing. In this article, I am going to review how to use it and show you how much I still don't know but I know a lot to get the freaking work done. Anyway...just let's keep, keeping on. What else can be done.
 ---
 
 
-# Intro to VuePress blog theme and plugin
+# {{ $page.frontmatter.title }}
 
-<Meta date="24 JAN 2020" :tags="$page.frontmatter.tags"/>
+<Meta :date='$page.frontmatter.date' :tags='$page.frontmatter.tags'/>
 
 
 AWS Codepipeline is an excellent option for your CI/CD Option. In this article, I will walk you through setting using Github and AWS to set up your CI/CD pipeline.  
