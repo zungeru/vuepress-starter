@@ -29,7 +29,8 @@
 <style lang="stylus" scoped>
   .container
     display flex
-    justify-content: flex-start;
+    flex-direction column
+    justify-content flex-start
     color #999999
     // background-color yellow
 
@@ -48,12 +49,11 @@
     font-size 13px
 
   .tags-container
-    margin 8px 20px 10px 10px
+    margin -3px 20px 10px 10px
     display flex
 
   .tags-image
-    flex 1
-    width 10px
+    // flex 1
     margin-right 15px
 
   .tag-item
@@ -61,5 +61,12 @@
     margin-top -2px
     padding-right 8px
     font-size 14px
+
+  @media only screen and (min-width: 801px)
+    .container
+      flex-direction row
+
+    .tags-container
+      margin 10px 20px 10px 10px
 
 </style>

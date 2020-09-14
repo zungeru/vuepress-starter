@@ -4,7 +4,13 @@
       <div class='header-container'>
         <router-link to='/'>
           <img class='logo' src='../public/logo3.png'>
+        </router-link>
+        <div class='header-items'>
+          <router-link to='/'>
+            <img class='header-info' src='../public/layer.png'>
           </router-link>
+          <SearchBox/>
+        </div>
       </div>
     </header>
 
@@ -22,12 +28,14 @@
 </template>
 
 <script>
+import SearchBox from '@SearchBox'
 export default {
   data() {
     return {
       width: window.innerWidth
     }
   },
+  components: { SearchBox },
   methods: {
     getWidth () {
       this.width = window.innerWidth;
