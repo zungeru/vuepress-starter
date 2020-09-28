@@ -5,7 +5,7 @@
       <p class='summary'>{{data.frontmatter.summary }}</p>
     </router-link>
     
-    <Meta date='24 Jan 2014' :tags='data.frontmatter.tags'/>
+    <Meta :date='data.frontmatter.date' :tags='data.frontmatter.tags'/>
     <hr>
   </div>
 </template>
